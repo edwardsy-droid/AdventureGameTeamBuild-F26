@@ -1,3 +1,4 @@
+
 # ------------------------------------------------------------------------
 #
 #  Function: healing_herbs
@@ -8,12 +9,14 @@
 #  Description: Player discovers healing herbs that restore a small
 #    amount of health.
 #
-#  Author: Your Name
+#  Author: Eli Tattershall
 #
 # ------------------------------------------------------------------------
 
 import random
 
 def healing_herbs(health):
-    print("Healing Herbs")
-    return health+5
+    healing = random.randint(3, 8)
+    print("You found some healing herbs!")
+    print(f"You gained {healing} health points.")
+    return health + healing
