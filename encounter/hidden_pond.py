@@ -7,7 +7,7 @@
 #
 #  Description: Player discovers a hidden pond that restores health.
 #
-#  Author: Your Name
+#  Author: Yaya Edwards
 #
 # ------------------------------------------------------------------------
 
@@ -15,4 +15,7 @@ import random
 
 def hidden_pond(health):
     print("Hidden Pond")
-    return health+5
+    print("You found a hidden pond!")
+    print(f"You gained {healing} health points.")
+    return health + healing
+
